@@ -21,43 +21,43 @@
 
 ##  Git Commands 
 1. To initialoise a git repository
-'''
->> git init
-'''
-2. to set usename and email
-'''
->> git config --global user.name <user name>
->> git config --global user.email "some@gmail.com"
-'''
-3. To see the all configuration files 
-'''
->> git config --list
 
-'''
+    >> git init
+
+2. to set usename and email
+
+    >> git config --global user.name <user name>
+    >> git config --global user.email "some@gmail.com"
+
+3. To see the all configuration files 
+
+    >> git config --list
+
+
 4. To __Track__ the files whether Tracked or UnTracked
-'''
->> git status
-'''
+
+    >> git status
+
 
 5. To add workspace or UnTracked files into __Staging/Index__ area
-'''
-to add all untarcked files to Index area
->> git add .  
 
-if you want to add particular file
->> git add <file>
-'''
+    * to add all untarcked files to Index area
+        >> git add .  
+
+    * if you want to add particular file
+        >> git add <file>
+
 
 6. To move staged changes to __*Local repository*__
-'''
->> git commit -m "commit message"
-'''
+
+    >> git commit -m "commit message"
+
 7. To check Logs or Commits
-'''
->> git log
-git log will display commit ids(SHA format) with modified or commit date
-'''
+
+    >> git log
+    git log will display commit ids(SHA format) with modified or commit  date
+
 8. To push __*Local repository*__ code to __*Central Repository*__
-'''
->> git push 
-'''
+
+    >> git push 
+
