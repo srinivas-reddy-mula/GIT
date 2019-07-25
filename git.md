@@ -45,14 +45,14 @@
 
 6. To move staged changes to __*Local repository*__
 
-      git commit -m "commit message"
+    * git commit -m "commit message"
 
 7. To check Logs or Commits
 
-      git log
-    git log will display commit ids(SHA format) with modified or commit  date
+    * git log
+        git log will display commit ids(SHA format) with modified or commit  date
 
 8. To push __*Local repository*__ code to __*Central Repository*__
 
-      git push 
+    * git push 
 
