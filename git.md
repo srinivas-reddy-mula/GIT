@@ -59,5 +59,16 @@
 #### 9. To see many logs comfortably
     
     git log --oneline
+    git log --oneline -<number>
+    git log -n
+    note: will give n nuber of commits
     
+#### 10. To get particular author logs
 
+    git log --author=<name>
+    git log --since=yy-mm-dd 
+    git log --until=yy-mm-dd
+
+    git log --oneline --decorate 
+    note: will give commits of all branches
+    
