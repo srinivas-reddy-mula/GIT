@@ -20,7 +20,7 @@
 
 
 ##  Git Commands 
-1. To initialoise a git repository
+1. To initialise a git repository
     *   git init
 
 2. to set usename and email
