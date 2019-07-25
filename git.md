@@ -13,9 +13,9 @@
  #### 6. Git will maintain all versions of commits, so we can rollback easily
  #### 7. Git will maintain all the details about commit like developer name and EMAIL TIME DATE in LOGS
  #### 8. Git has Three phases
-      WORKSPACE
-      STAGING / INDEXING AREA
-      LOCAL REPOSITORY
+      1. WORKSPACE
+      2. STAGING / INDEXING AREA
+      3. LOCAL REPOSITORY
 ![preview](./images/git_phases.png)
 
 
