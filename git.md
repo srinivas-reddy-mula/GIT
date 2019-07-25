@@ -71,4 +71,16 @@
 
     git log --oneline --decorate 
     note: will give commits of all branches
+
+#### 11. To reset Local Repository files to Staging Area
     
+    git reset --soft 
+    note: give parent commit id to reset last commit
+
+#### 12. To move Staging area file to Workspace
+    
+    git reset head <file>
+
+#### 13. TO reset From Local Repository to directly Workspace
+
+    git reset --mixed <commitid>
