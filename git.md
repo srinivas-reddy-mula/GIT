@@ -50,7 +50,7 @@
 7. To check Logs or Commits
 
     * git log
-        git log will display commit ids(SHA format) with modified or commit  date
+* git log will display commit    ids(SHA format) with modified   or commit  date
 
 8. To push __*Local repository*__ code to __*Central Repository*__
 
