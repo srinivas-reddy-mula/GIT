@@ -19,7 +19,7 @@
 ![preview](./images/git_phases.png)
 
 
-####      Git Commands 
+##      Git Commands 
 #### 1. To initialise a git repository
         git init
 
@@ -35,7 +35,7 @@
         git status
 
 
- #### 5. To add workspace or UnTracked files into Staging/Index area
+#### 5. To add workspace or UnTracked files into Staging/Index area
       to add all untarcked files to Index area
           git add .  
 
@@ -43,20 +43,20 @@
           git add <file>
 
 
- #### 6. To move staged changes to  Local repository 
+#### 6. To move staged changes to  Local repository 
 
       git commit -m "commit message"
 
- #### 7. To check Logs or Commits
+#### 7. To check Logs or Commits
 
       git log
   git log will display commit    ids(SHA format) with modified   or commit  date
 
- #### 8. To push  Local repository  code to  Central Repository 
+#### 8. To push  Local repository  code to  Central Repository 
 
       git push 
 
- #### 9. To see many logs comfortably
+#### 9. To see many logs comfortably
     '''
     git log --oneline
     '''
