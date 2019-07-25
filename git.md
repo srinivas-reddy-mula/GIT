@@ -57,7 +57,7 @@
       git push 
 
 #### 9. To see many logs comfortably
-    '''
+    
     git log --oneline
-    '''
+    
 
