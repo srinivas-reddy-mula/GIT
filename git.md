@@ -19,19 +19,19 @@
 ![preview](./images/git_phases.png)
 
 
-  ####      Git Commands 
- #### 1. To initialise a git repository
+####      Git Commands 
+#### 1. To initialise a git repository
         git init
 
- #### 2. to set usename and email
+#### 2. to set usename and email
         git config --global user.name <user name>
         git config --global user.email "some@gmail.com"
 
- #### 3. To see the all configuration files 
+#### 3. To see the all configuration files 
         git config --list
 
 
- #### 4. To Track the files whether Tracked or UnTracked
+#### 4. To Track the files whether Tracked or UnTracked
         git status
 
 
@@ -55,4 +55,9 @@
  #### 8. To push  Local repository  code to  Central Repository 
 
       git push 
+
+ #### 9. To see many logs comfortably
+    '''
+    git log --oneline
+    '''
 
