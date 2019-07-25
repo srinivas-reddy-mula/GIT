@@ -21,28 +21,23 @@
 
 ##  Git Commands 
 1. To initialoise a git repository
-
-    >> git init
+    * >> git init
 
 2. to set usename and email
-
-    >> git config --global user.name <user name>
-    >> git config --global user.email "some@gmail.com"
+    * >> git config --global user.name <user name>
+    * >> git config --global user.email "some@gmail.com"
 
 3. To see the all configuration files 
-
-    >> git config --list
+    * >> git config --list
 
 
 4. To __Track__ the files whether Tracked or UnTracked
-
-    >> git status
+    * >> git status
 
 
 5. To add workspace or UnTracked files into __Staging/Index__ area
-
     * to add all untarcked files to Index area
-        >> git add .  
+    >> git add .  
 
     * if you want to add particular file
         >> git add <file>
