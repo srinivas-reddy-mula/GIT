@@ -105,11 +105,20 @@
 
         git stash
 
-#### 17. To rollback / reset to staging area 
+#### 17. To rollback / reset to staging area from stash memory
 
         git stash pop
 
     note: to rollback particular one 
         git stash pop <stash_name>
 
-#### 18. 
+#### 18. To set aliases for a command in git
+
+        git config --global alias.log "l"
+
+#### 19. TO remove an alias from git
+
+        git config --global --unset alias.l
+
+#### 20. what is .gitignore file
+     to hide any file from git workspace
