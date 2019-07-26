@@ -99,6 +99,6 @@
 #### 15. To merge changed commits from one branch to other
 
     note: here, first you have to be in destination barnch and give the source branch
-    '''
+    
     git merge <source_branch>
-    '''
+    
