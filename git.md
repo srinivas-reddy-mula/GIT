@@ -84,3 +84,21 @@
 #### 13. TO reset From Local Repository to directly Workspace
 
     git reset --mixed <commitid>
+
+#### 14. To create a branch and move into the branch
+
+    note: creating branch
+    git branch <branch name>
+
+    note: moving into the branch
+    git checkout <branchname>
+
+    note: moving into the branch while creating 
+    git checkout -b <branchname>
+
+#### 15. To merge changed commits from one branch to other
+
+    note: here, first you have to be in destination barnch and give the source branch
+    '''
+    git merge <source_branch>
+    '''
