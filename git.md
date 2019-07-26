@@ -36,10 +36,10 @@
 
 
 #### 5. To add workspace or UnTracked files into Staging/Index area
-      to add all untarcked files to Index area
+    to add all untarcked files to Index area
           git add .  
 
-      if you want to add particular file
+    if you want to add particular file
           git add <file>
 
 
@@ -49,27 +49,27 @@
 
 #### 7. To check Logs or Commits
 
-      git log
+        git log
   git log will display commit    ids(SHA format) with modified   or commit  date
 
 #### 8. To push  Local repository  code to  Central Repository 
 
-      git push 
+        git push 
 
 #### 9. To see many logs comfortably
     
-    git log --oneline
-    git log --oneline -<number>
-    git log -n
+        git log --oneline
+        git log --oneline -<number>
+        git log -n
     note: will give n nuber of commits
     
 #### 10. To get particular author logs
 
-    git log --author=<name>
-    git log --since=yy-mm-dd 
-    git log --until=yy-mm-dd
+        git log --author=<name>
+        git log --since=yy-mm-dd 
+        git log --until=yy-mm-dd
 
-    git log --oneline --decorate 
+        git log --oneline --decorate 
     note: will give commits of all branches
 
 #### 11. To reset Local Repository files to Staging Area
@@ -79,26 +79,37 @@
 
 #### 12. To move Staging area file to Workspace
     
-    git reset head <file>
+        git reset head <file>
 
 #### 13. TO reset From Local Repository to directly Workspace
 
-    git reset --mixed <commitid>
+        git reset --mixed <commitid>
 
 #### 14. To create a branch and move into the branch
 
     note: creating branch
-    git branch <branch name>
+        git branch <branch name>
 
     note: moving into the branch
-    git checkout <branchname>
+        git checkout <branchname>
 
     note: moving into the branch while creating 
-    git checkout -b <branchname>
+        git checkout -b <branchname>
 
 #### 15. To merge changed commits from one branch to other
 
     note: here, first you have to be in destination barnch and give the source branch
+        git merge <source_branch>
     
-    git merge <source_branch>
-    
+#### 16. To save the code 
+
+        git stash
+
+#### 17. To rollback / reset to staging area 
+
+        git stash pop
+
+    note: to rollback particular one 
+        git stash pop <stash_name>
+
+#### 18. 
