@@ -122,3 +122,17 @@
 
 #### 20. what is .gitignore file
      to hide any file from git workspace
+
+#### 21. To create tag
+
+        git tag <tag_name>
+
+#### 22. To delete tag
+
+        git push origin -d <tag_name>
+
+#### 23. To change commit message
+    
+    note: you can change commit message for only last commit
+        git commit --amend -m "message"
+        
