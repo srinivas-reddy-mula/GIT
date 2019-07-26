@@ -37,15 +37,15 @@
 
 #### 5. To add workspace or UnTracked files into Staging/Index area
     to add all untarcked files to Index area
-          git add .  
+        git add .  
 
     if you want to add particular file
-          git add <file>
+        git add <file>
 
 
 #### 6. To move staged changes to  Local repository 
 
-      git commit -m "commit message"
+        git commit -m "commit message"
 
 #### 7. To check Logs or Commits
 
@@ -74,7 +74,7 @@
 
 #### 11. To reset Local Repository files to Staging Area
     
-    git reset --soft 
+        git reset --soft 
     note: give parent commit id to reset last commit
 
 #### 12. To move Staging area file to Workspace
