@@ -78,8 +78,11 @@
     note: give parent commit id to reset last commit
 
 #### 12. To move Staging area file to Workspace
-    
+        git reset --hard
         git reset head <file>
+
+#### 12.A To remove untracked files 
+        git clean
 
 #### 13. TO reset From Local Repository to directly Workspace
 
@@ -136,3 +139,9 @@
     note: you can change commit message for only last commit
         git commit --amend -m "message"
         
+#### 24. To add changes when immediate deletion
+
+    note: if >> git rm << is used changes will be staged directly
+    >> git rm <file_name>
+
+#### 25. 
